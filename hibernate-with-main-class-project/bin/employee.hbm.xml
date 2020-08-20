@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">  
+  
+ <hibernate-mapping>  
+  <class name="com.mycompany.domain.Employee" table="Employee">  
+    <id name="idEmployee">  
+     	<generator class="assigned"></generator>  
+    </id>  
+            
+    <property name="firstName"></property>  
+    <property name="lastName"></property>  
+	<property name="middleName"></property>
+	<property name="salary"></property>
+	<property name="depId"></property>	            
+  </class>  
+            
+ </hibernate-mapping> 
